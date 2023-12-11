@@ -1,0 +1,123 @@
+h1 {
+    font-size: 5rem;
+    font-family: "Sofia Pro";
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    margin: 0rem;
+    color: var(--typo-title-primary);
+}
+h2 {
+    font-size: 4rem;
+    font-family: "Sofia Pro";
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    margin: 0rem;
+    color: var(--typo-title-primary);
+}
+h3 {
+    font-size: 3.5rem;
+    font-family: "Sofia Pro";
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    margin: 0rem;
+    color: var(--typo-title-primary);
+}
+h4 {
+    font-size: 1.5rem;
+    font-family: "Sofia Pro";
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.3em;
+    text-decoration: none;
+    text-transform: none;
+    margin: 0rem;
+    color: var(--typo-title-secondary);
+}
+p {
+    font-size: 1.125rem;
+    font-family: "Sofia Pro";
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: var(--typo-body-primary, #444);
+    margin: 0rem;
+}
+.p-b {
+    font-size: 1.125rem;
+    font-family: "Sofia Pro";
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: var(--typo-body-primary, #444);
+    margin: 0rem;
+}
+.b2 {
+    font-size: 0.875rem;
+    font-family: "Sofia Pro";
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: var(--typo-body-primary, #444);
+    margin: 0rem;
+}
+.b2-b {
+    font-size: 0.875rem;
+    font-family: "Sofia Pro";
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: var(--typo-body-primary, #444);
+    margin: 0rem;
+}
+.btn {
+    font-size: 1.125rem;
+    font-family: "Sofia Pro";
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+.label {
+    font-size: 0.75rem;
+    font-family: "Sofia Pro";
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: var(--typo-body-primary, #444);
+    margin: 0rem;
+}
+.caption {
+    font-size: 0.75rem;
+    font-family: "Sofia Pro";
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: var(--typo-body-primary, #444);
+    margin: 0rem;
+}
+
+button {
+    background: none;
+    border: 1px;
+    border-radius: 1rem;
+}
+
+button:hover {
+    border: 1px;
+    border-radius: 1rem;
+    border-color: var(--stroke-primary);
+    transition: 600ms;
+    background: var(--surface-primary);
+}

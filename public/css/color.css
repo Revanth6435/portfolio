@@ -1,0 +1,65 @@
+:root {
+    --grey-50: #f7f7f7;
+    --grey-100: #dddddd;
+    --grey-200: #c2c2c2;
+    --grey-300: #a7a7a7;
+    --grey-400: #8c8c8c;
+    --grey-500: #727272;
+    --grey-600: #5b5b5b;
+    --grey-700: #444444;
+    --grey-800: #2d2d2d;
+    --grey-900: #161616;
+    --white: #ffffff;
+    --black: #000000;
+    --yellow: #ddc50a;
+    --red: #c12424;
+    --darkblue: #413ee4;
+    --green: #5fb362;
+    --orange: #c14a24;
+    --purple: #6c3ad7;
+    --blue: #3a79d7;
+    --tiffiny-50: #effaf8;
+    --tiffiny-100: #e0f5f3;
+    --tiffiny-200: #c8eeea;
+    --tiffiny-300: #b0e6e1;
+    --tiffiny-400: #98dfd8;
+    --tiffiny-500: #81d8d0;
+    --tiffiny-600: #67aca6;
+    --tiffiny-700: #4d817c;
+    --tiffiny-800: #335653;
+    --tiffiny-900: #192b29;
+
+    /* Tokens Dark Theme */
+    --bg-primary: var(--black);
+    --surface-brand: var(--tiffiny-700);
+    --surface-primary: var(--grey-800);
+    --surface-secondary: var(--tiffiny-900);
+    --typo-title-style: var(--tiffiny-500);
+    --typo-title-primary: var(--grey-50);
+    --typo-title-secondary: var(--grey-400);
+    --typo-body-primary: var(--grey-400);
+    --typo-body-secondary: var(--grey-700);
+    --typo-body-brand-primary: var(--grey-50);
+    --typo-body-brand-secondary: var(--tiffiny-500);
+    --icon-brand: var(--tiffiny-500);
+    --icon-primary: var(--grey-100);
+    --stroke-primary: var(--grey-600);
+}
+
+/* Tokens Light Theme */
+.dark-theme {
+    --bg-primary: var(--white);
+    --surface-brand: var(--tiffiny-00);
+    --surface-primary: var(--grey-50);
+    --surface-secondary: var(--tiffiny-50);
+    --typo-title-style: var(--tiffiny-600);
+    --typo-title-primary: var(--grey-700);
+    --typo-title-secondary: var(--grey-200);
+    --typo-body-primary: var(--grey-600);
+    --typo-body-secondary: var(--grey-200);
+    --typo-body-brand-primary: var(--grey-500);
+    --typo-body-brand-secondary: var(--tiffiny-600);
+    --icon-brand: var(--tiffiny-600);
+    --icon-primary: var(--grey-800);
+    --stroke-primary: var(--grey-400);
+}

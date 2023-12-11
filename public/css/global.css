@@ -1,0 +1,337 @@
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+    color: var(--icon-primary);
+}
+
+/* Navbar CSS */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: none;
+    pointer-events: none;
+}
+
+.left {
+    display: flex;
+    width: 5rem;
+    height: 100%;
+    padding: 2rem;
+    height: -webkit-fill-available;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: auto;
+}
+.left-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.left img {
+    color: var(--icon-primary);
+    height: 4rem;
+    width: 4rem;
+}
+
+.left-icons img {
+    color: var(--icon-primary);
+    height: 1rem;
+    width: 1rem;
+}
+
+.left-icons img:hover {
+    color: var(--icoc-brand);
+}
+
+.right {
+    display: flex;
+    top: 0;
+    width: 5rem;
+    height: -webkit-fill-available;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    pointer-events: auto;
+}
+
+.right img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.right img:hover {
+    fill: var(--icon-brand);
+}
+
+.right-text p {
+    margin: 1rem;
+}
+.right-text {
+    display: flex;
+}
+
+.right-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.right-icon button,
+.left-icons button {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Brand color text */
+
+.title-brand {
+    color: var(--typo-title-style);
+}
+
+.text-brand {
+    color: var(--typo-body-brand-secondary);
+}
+
+/* Footer CSS */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 4rem 0;
+    border-top: 1px solid var(--stroke-primary, #5b5b5b);
+}
+
+.footer-container {
+    width: 70%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.footer-left-content,
+.footer-right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.footer-left-content a {
+    font-size: 3.5rem;
+    font-family: "Sofia Pro";
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    margin: 0rem;
+    text-decoration: none;
+    color: var(--typo-body-brand-primary);
+    transition: 200ms;
+}
+
+.footer-left-content a:hover {
+    background-color: transparent;
+    color: var(--typo-body-brand-secondary);
+}
+
+.footer-right-content p:hover {
+    color: var(--typo-body-brand-primary);
+}
+
+/* Image sizes */
+.img-sssm {
+    width: 2rem;
+    height: 2rem;
+}
+
+.img-ssm {
+    width: 4rem;
+    height: 4rem;
+}
+
+.img-sm {
+    width: 6rem;
+    height: 6rem;
+}
+
+.img-md {
+    width: 8rem;
+    height: 8rem;
+}
+
+.img-lg {
+    width: 10rem;
+    height: 10rem;
+}
+
+.img-xl {
+    width: 12rem;
+    height: 12rem;
+}
+
+@keyframes background-pan {
+    from {
+        background-position: 0% center;
+    }
+
+    to {
+        background-position: -200% center;
+    }
+}
+
+@keyframes scale {
+    from,
+    to {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+h2 > .magic {
+    display: inline-block;
+    position: relative;
+}
+
+h2 > .magic > .magic-star {
+    --size: clamp(20px, 1.5vw, 30px);
+
+    animation: scale 700ms ease forwards;
+    display: block;
+    height: var(--size);
+    left: var(--star-left);
+    position: absolute;
+    top: var(--star-top);
+    width: var(--size);
+}
+
+h2 > .magic > .magic-star > svg {
+    animation: rotate 1000ms linear infinite;
+    display: block;
+    opacity: 0.7;
+}
+
+h2 > .magic > .magic-star > svg > path {
+    fill: var(--tiffiny-500);
+}
+
+h2 > .magic > .magic-text {
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(to right, #8360c3, #2ebf91, #8360c3);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+h1 > .magic {
+    display: inline-block;
+    position: relative;
+}
+
+h1 > .magic > .magic-star {
+    --size: clamp(20px, 1.5vw, 30px);
+
+    animation: scale 700ms ease forwards;
+    display: block;
+    height: var(--size);
+    left: var(--star-left);
+    position: absolute;
+    top: var(--star-top);
+    width: var(--size);
+}
+
+h1 > .magic > .magic-star > svg {
+    animation: rotate 1000ms linear infinite;
+    display: block;
+    opacity: 0.7;
+}
+
+h1 > .magic > .magic-star > svg > path {
+    fill: var(--typo-body-brand-primary);
+}
+
+h1 > .magic > .magic-text {
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(to right, #8360c3, #2ebf91, #8360c3);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+h3 > .magic {
+    display: inline-block;
+    position: relative;
+}
+
+h3 > .magic > .magic-star {
+    --size: clamp(20px, 1.5vw, 30px);
+
+    animation: scale 700ms ease forwards;
+    display: block;
+    height: var(--size);
+    left: var(--star-left);
+    position: absolute;
+    top: var(--star-top);
+    width: var(--size);
+}
+
+h3 > .magic > .magic-star > svg {
+    animation: rotate 1000ms linear infinite;
+    display: block;
+    opacity: 0.7;
+}
+
+h3 > .magic > .magic-star > svg > path {
+    fill: var(--typo-body-brand-primary);
+}
+
+h3 > .magic > .magic-text {
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(to right, #8360c3, #2ebf91, #8360c3);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}

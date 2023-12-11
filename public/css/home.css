@@ -1,0 +1,323 @@
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-primary);
+    overflow-x: hidden;
+    transition: 600ms;
+}
+
+/* Hero section  */
+
+.hero {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 1rem;
+}
+
+.image-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+}
+
+.hero-text h4,
+h1 {
+    text-align: center;
+}
+.image-bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+/* About me section  */
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 1rem;
+}
+
+/* Filler */
+.filler {
+    width: 100%;
+    height: 20vh;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrolling-text {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    animation: scrollText 10s linear infinite;
+    align-items: center;
+}
+
+@keyframes scrollText {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* Service section */
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 2rem;
+}
+
+.service-card-container {
+    display: grid;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 2.5rem;
+    align-self: stretch;
+    grid: auto / auto auto auto;
+}
+
+.service-card {
+    display: flex;
+    width: 32%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.service-card h1 {
+    opacity: 0.1;
+}
+
+/* Experience section */
+
+.experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 1rem;
+}
+
+/* History section */
+
+.history {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 9rem;
+}
+
+.history-text {
+    width: 100%;
+    padding: 0 15%;
+}
+
+.job-container {
+    width: 100%;
+}
+
+.job {
+    width: 100%;
+    padding: 2rem 15%;
+    gap: 3rem;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid var(--stroke-primary, #5b5b5b);
+    transition: 600ms;
+}
+
+.job h2 {
+    align-self: stretch;
+}
+
+.job-title {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.job:hover {
+    background-color: var(--surface-brand);
+}
+
+.job:hover .p-b {
+    color: var(--typo-body-brand-primary);
+}
+
+/* Clients section */
+
+.companies {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.client-text {
+    padding: 0 15%;
+}
+
+.client-container {
+    width: 100%;
+}
+
+.client {
+    width: 100%;
+    padding: 2rem 15%;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--stroke-primary, #5b5b5b);
+    transition: 600ms;
+}
+
+.client h2 {
+    align-self: stretch;
+}
+
+.client:hover {
+    background-color: var(--surface-brand);
+}
+
+.client:hover p {
+    color: var(--typo-body-brand-primary);
+}
+
+/* Showreel section */
+
+.showreel {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+}
+
+/* Client testimonials Sections */
+
+.review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 4rem;
+    padding: 9rem 0;
+}
+
+.review-title {
+    width: 70%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--stroke-primary, #5b5b5b);
+}
+
+.review-card {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+    padding-bottom: 9rem;
+}
+
+.review-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    flex: 1 0 0;
+}
+
+.client-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+/* Motto section */
+
+.motto {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+}
+
+.motto-text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.motto-text h4,
+.motto-text h2,
+.motto-text p {
+    text-align: center;
+    align-self: stretch;
+}

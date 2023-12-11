@@ -1,0 +1,50 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_64_4111)">
+<mask id="mask0_64_4111" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-56" y="0" width="368" height="256">
+<rect x="-52.8516" y="2.5" width="361.703" height="251" fill="#EDEDED" stroke="#DDC50A" stroke-width="5"/>
+</mask>
+<g mask="url(#mask0_64_4111)">
+<line x1="-511.292" y1="364.218" x2="249.479" y2="-396.553" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-494.984" y1="380.526" x2="265.787" y2="-380.245" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-478.675" y1="396.834" x2="282.095" y2="-363.937" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-462.367" y1="413.142" x2="298.403" y2="-347.629" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-446.06" y1="429.45" x2="314.711" y2="-331.321" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-429.751" y1="445.758" x2="331.019" y2="-315.013" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-413.443" y1="462.066" x2="347.327" y2="-298.705" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-397.135" y1="478.374" x2="363.635" y2="-282.397" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-380.827" y1="494.682" x2="379.943" y2="-266.089" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-364.519" y1="510.99" x2="396.251" y2="-249.781" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-348.211" y1="527.298" x2="412.559" y2="-233.473" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-331.903" y1="543.606" x2="428.867" y2="-217.164" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-315.595" y1="559.914" x2="445.175" y2="-200.856" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-299.287" y1="576.222" x2="461.483" y2="-184.548" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-282.979" y1="592.53" x2="477.791" y2="-168.24" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-266.671" y1="608.838" x2="494.099" y2="-151.932" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-250.363" y1="625.146" x2="510.408" y2="-135.624" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-234.055" y1="641.454" x2="526.715" y2="-119.316" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-217.747" y1="657.762" x2="543.024" y2="-103.008" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-201.439" y1="674.07" x2="559.332" y2="-86.7" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-185.131" y1="690.379" x2="575.64" y2="-70.3919" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-168.822" y1="706.687" x2="591.948" y2="-54.0839" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-152.514" y1="722.995" x2="608.256" y2="-37.7758" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-136.207" y1="739.303" x2="624.564" y2="-21.4679" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-119.899" y1="755.611" x2="640.872" y2="-5.15976" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-103.591" y1="771.919" x2="657.18" y2="11.1482" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-87.2824" y1="788.227" x2="673.488" y2="27.4563" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-70.9743" y1="804.535" x2="689.796" y2="43.7643" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-54.6662" y1="820.843" x2="706.104" y2="60.0724" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-38.3581" y1="837.151" x2="722.412" y2="76.3805" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-22.0505" y1="853.459" x2="738.72" y2="92.6884" stroke="#81D8D0" stroke-width="5"/>
+<line x1="-5.74238" y1="869.767" x2="755.028" y2="108.996" stroke="#81D8D0" stroke-width="5"/>
+<line x1="10.5657" y1="886.075" x2="771.336" y2="125.305" stroke="#81D8D0" stroke-width="5"/>
+<line x1="26.8738" y1="902.383" x2="787.644" y2="141.613" stroke="#81D8D0" stroke-width="5"/>
+<line x1="43.1819" y1="918.691" x2="803.952" y2="157.921" stroke="#81D8D0" stroke-width="5"/>
+<line x1="59.49" y1="934.999" x2="820.26" y2="174.229" stroke="#81D8D0" stroke-width="5"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_64_4111">
+<rect width="256" height="256" fill="white"/>
+</clipPath>
+</defs>
+</svg>
