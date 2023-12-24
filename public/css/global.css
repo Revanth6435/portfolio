@@ -17,6 +17,7 @@ nav {
     align-items: center;
     background-color: none;
     pointer-events: none;
+    z-index: 1;
 }
 
 .left {
@@ -124,6 +125,7 @@ nav {
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .footer-left,
@@ -226,112 +228,4 @@ nav {
     to {
         transform: rotate(180deg);
     }
-}
-
-h2 > .magic {
-    display: inline-block;
-    position: relative;
-}
-
-h2 > .magic > .magic-star {
-    --size: clamp(20px, 1.5vw, 30px);
-
-    animation: scale 700ms ease forwards;
-    display: block;
-    height: var(--size);
-    left: var(--star-left);
-    position: absolute;
-    top: var(--star-top);
-    width: var(--size);
-}
-
-h2 > .magic > .magic-star > svg {
-    animation: rotate 1000ms linear infinite;
-    display: block;
-    opacity: 0.7;
-}
-
-h2 > .magic > .magic-star > svg > path {
-    fill: var(--tiffiny-500);
-}
-
-h2 > .magic > .magic-text {
-    animation: background-pan 3s linear infinite;
-    background: linear-gradient(to right, #8360c3, #2ebf91, #8360c3);
-    background-size: 200%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    white-space: nowrap;
-}
-
-h1 > .magic {
-    display: inline-block;
-    position: relative;
-}
-
-h1 > .magic > .magic-star {
-    --size: clamp(20px, 1.5vw, 30px);
-
-    animation: scale 700ms ease forwards;
-    display: block;
-    height: var(--size);
-    left: var(--star-left);
-    position: absolute;
-    top: var(--star-top);
-    width: var(--size);
-}
-
-h1 > .magic > .magic-star > svg {
-    animation: rotate 1000ms linear infinite;
-    display: block;
-    opacity: 0.7;
-}
-
-h1 > .magic > .magic-star > svg > path {
-    fill: var(--typo-body-brand-primary);
-}
-
-h1 > .magic > .magic-text {
-    animation: background-pan 3s linear infinite;
-    background: linear-gradient(to right, #8360c3, #2ebf91, #8360c3);
-    background-size: 200%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    white-space: nowrap;
-}
-
-h3 > .magic {
-    display: inline-block;
-    position: relative;
-}
-
-h3 > .magic > .magic-star {
-    --size: clamp(20px, 1.5vw, 30px);
-
-    animation: scale 700ms ease forwards;
-    display: block;
-    height: var(--size);
-    left: var(--star-left);
-    position: absolute;
-    top: var(--star-top);
-    width: var(--size);
-}
-
-h3 > .magic > .magic-star > svg {
-    animation: rotate 1000ms linear infinite;
-    display: block;
-    opacity: 0.7;
-}
-
-h3 > .magic > .magic-star > svg > path {
-    fill: var(--typo-body-brand-primary);
-}
-
-h3 > .magic > .magic-text {
-    animation: background-pan 3s linear infinite;
-    background: linear-gradient(to right, #8360c3, #2ebf91, #8360c3);
-    background-size: 200%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    white-space: nowrap;
 }

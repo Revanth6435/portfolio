@@ -131,7 +131,7 @@ h1 {
 }
 
 .service-card h1 {
-    opacity: 0.1;
+    opacity: 0.2;
 }
 
 /* Experience section */
@@ -168,6 +168,8 @@ h1 {
 
 .job-container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .job {
@@ -182,20 +184,6 @@ h1 {
 
 .job h2 {
     align-self: stretch;
-}
-
-.job-title {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-}
-
-.job:hover {
-    background-color: var(--surface-brand);
-}
-
-.job:hover .p-b {
-    color: var(--typo-body-brand-primary);
 }
 
 /* Clients section */
@@ -221,6 +209,7 @@ h1 {
 
 .client {
     width: 100%;
+    height: auto;
     padding: 2rem 15%;
     gap: 0;
     display: flex;
@@ -233,12 +222,15 @@ h1 {
     align-self: stretch;
 }
 
-.client:hover {
-    background-color: var(--surface-brand);
-}
-
-.client:hover p {
-    color: var(--typo-body-brand-primary);
+.client-more {
+    width: 100%;
+    width: 100%;
+    height: auto;
+    padding: 2rem 15%;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    transition: 600ms;
 }
 
 /* Showreel section */

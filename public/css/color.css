@@ -31,6 +31,7 @@
 
     /* Tokens Dark Theme */
     --bg-primary: var(--black);
+    --bg-secondary: var(--grey-900);
     --surface-brand: var(--tiffiny-700);
     --surface-primary: var(--grey-800);
     --surface-secondary: var(--tiffiny-900);
@@ -49,7 +50,7 @@
 /* Tokens Light Theme */
 .dark-theme {
     --bg-primary: var(--white);
-    --surface-brand: var(--tiffiny-00);
+    --surface-brand: var(--tiffiny-500);
     --surface-primary: var(--grey-50);
     --surface-secondary: var(--tiffiny-50);
     --typo-title-style: var(--tiffiny-600);

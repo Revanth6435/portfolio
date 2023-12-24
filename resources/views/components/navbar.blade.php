@@ -32,7 +32,7 @@
             </button>
         </div>
     </div>
-    <div class="right">
+    <div class="right slide-in-blurred-right">
         <div class="right-text">
             <p class="b-2">I prefer dark mode</p>
         </div>
